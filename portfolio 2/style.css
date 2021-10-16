@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('C:\Users\Maša\Desktop\Nunito.ttf') ('truetype');
+}
+* {
+    font-family: 'Monaco', monospace;
+    
+}
+body {
+    background-color:lightgrey;
+    margin-left:0;
+    margin-top: 0;
+    top: -22px;
+    right:0;
+    margin-right:0;
+    bottom:0;
+    margin-bottom: 0;
+    width:100%;
+    height:100%;
+    overflow: scroll;
+    
+    
+}
+h1 {
+    border-bottom: 3px solid black;
+    
+
+}
+
+.header {
+    position:fixed;
+    z-index: 99;
+    align-items: center;
+    width:100%;
+    display:inline-block;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin:15px;
+    background-color: snow;
+   
+    margin-left:0;
+    margin-top: 0;
+    height: 130px;
+    top: -22px;
+    padding-top: 10px;
+    opacity:90%;
+    font-family: 'Nunito', 'Roboto', sans-serif;
+}
+
+span {
+    padding: 15px;
+    margin: 15px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: orangered;
+}
+
+section {
+    position:relative;
+    top: 180px;
+    display:inline-block;
+    
+    align-items: center;
+    width:100%;
+   margin:10px;
+   bottom:100px;   
+  
+}
+
+
+
+
+img {
+    object-fit: contain;
+    width: 500px;
+    height:400px;
+    padding:10px 0;
+    
+}
+
+
+.floatleft {
+    float:left;
+    width: 400px;
+    
+}
+
+.floatright {
+    float: right;
+  }
+
+.omeni {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+
+h3 {
+    color:black;
+    text-align:center;
+    width:100%;
+    background-color: snow;
+    bottom:0;
+    opacity:50%;
+    height:30px;
+bottom:0;
+    position:fixed;
+    margin-bottom: 0;
+}
