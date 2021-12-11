@@ -28,7 +28,7 @@ h1 {
 }
 
 .header {
-    position:fixed;
+    
     z-index: 99;
     align-items: center;
     width:100%;
@@ -65,13 +65,14 @@ a:hover{
 
 section {
     position:relative;
-    top: 180px;
-    display:inline-block;
+    top: 30px;
+    display:block;
     
-    align-items: center;
+    text-align: center;
     width:100%;
    margin:10px;
-   bottom:100px;   
+   bottom:150px; 
+    
   
 }
 
